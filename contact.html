@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The student portfolio of Chinedu Goodluck.">
+  <title>Contact | Chinedu Goodluck</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <nav class="navbar container" aria-label="Main navigation">
+    <a class="brand" href="index.html"><span>Goodluck</span></a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-label="Toggle navigation">Menu</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li><li><a href="planner.html">Academic Planner</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main class="container">
+
+<h1 class="page-heading">Contact Me</h1>
+<p class="lead">Use the form below to practise sending a message.</p>
+<section class="section">
+  <form id="contactForm" class="section-heading">
+    <h2>Send a Message</h2>
+    <label for="fullName">Name</label>
+    <input id="fullName" type="text" placeholder="Your name">
+    <label for="emailAddress">Email Address</label>
+    <input id="emailAddress" type="text" placeholder="Your email address">
+    <label for="phoneNumber">Phone Number</label>
+    <input id="phoneNumber" type="text" placeholder="Digits only">
+    <label for="message">Message</label>
+    <textarea id="message" placeholder="Write your message"></textarea>
+    <button class="button" type="submit">Submit</button>
+    <p class="feedback" id="result" aria-live="polite"></p>
+  </form>
+</section>
+
+</main>
+<footer>
+  <p>&copy; <span id="year"></span> Chinedu Goodluck</p>
+  <p>Personal Student Portfolio</p>
+</footer>
+</body>
+</html>

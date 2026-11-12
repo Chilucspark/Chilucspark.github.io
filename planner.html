@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The student portfolio of Chinedu Goodluck.">
+  <title>Academic Planner | Chinedu Goodluck</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <nav class="navbar container" aria-label="Main navigation">
+    <a class="brand" href="index.html"><span>Goodluck</span></a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-label="Toggle navigation">Menu</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li><li><a href="planner.html">Academic Planner</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main class="container">
+
+<h1 class="page-heading">Academic Planner</h1>
+<p class="lead">Add tasks, mark them as completed, and remove tasks when you no longer need them.</p>
+<section class="planner-panel">
+  <h2>My Study Tasks</h2>
+  <form class="add-task" id="plannerForm">
+    <input id="taskField" type="text" placeholder="Enter a task..." aria-label="Enter a study task">
+    <button class="button" type="submit">Add Task</button>
+  </form>
+  <p class="form-note">Tasks are saved in this browser, so they will still be here when you return using the same browser.</p>
+  <p id="noTasks">No tasks added yet. Add your first task above.</p>
+  <ul class="task-list" id="taskList"></ul>
+</section>
+<section class="section">
+  <h2 class="section-heading">Sample Weekly Planner</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th>Day</th><th>Suggested Activity</th><th>Time</th></tr></thead>
+      <tbody>
+        <tr><td>Monday</td><td>Review course materials</td><td>1 hour</td></tr>
+        <tr><td>Tuesday</td><td>Learn a new technology topic</td><td>1 hour</td></tr>
+        <tr><td>Wednesday</td><td>Practise problem-solving</td><td>1 hour</td></tr>
+        <tr><td>Thursday</td><td>Read and take notes</td><td>1 hour</td></tr>
+        <tr><td>Friday</td><td>Review what I learned</td><td>1 hour</td></tr>
+      </tbody>
+    </table>
+    <p class="form-note">This is a sample timetable. You can adjust it to your own routine.</p>
+  </div>
+</section>
+
+</main>
+<footer>
+  <p>&copy; <span id="year"></span> Chinedu Goodluck</p>
+  <p>Personal Student Portfolio</p>
+</footer>
+</body>
+</html>
